@@ -1,0 +1,33 @@
+{
+  "name": "random",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "random"
+  ],
+  "homepage": "https://github.com/vikramgaming/random#readme",
+  "bugs": {
+    "url": "https://github.com/vikramgaming/random/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikramgaming/random.git"
+  },
+  "license": "ISC",
+  "author": "Ryu",
+  "type": "commonjs",
+  "main": "./dist/random.js",
+  "module": "./dist/random.mjs",
+  "types": "./dist/random.d.js",
+  "exports": {
+    "require": "./dist/random.js",
+    "import": "./dist/random.mjs"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  }
+}
