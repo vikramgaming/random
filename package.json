@@ -1,5 +1,5 @@
 {
-  "name": "random",
+  "name": "@ryu-thalas/random",
   "version": "1.0.0",
   "description": "",
   "keywords": [
@@ -16,12 +16,12 @@
   "license": "ISC",
   "author": "Ryu",
   "type": "commonjs",
-  "main": "./dist/random.js",
-  "module": "./dist/random.mjs",
-  "types": "./dist/random.d.js",
+  "main": "dist/random.js",
+  "module": "dist/random.mjs",
+  "types": "dist/random.d.js",
   "exports": {
-    "require": "./dist/random.js",
-    "import": "./dist/random.mjs"
+    "require": "dist/random.js",
+    "import": "dist/random.mjs"
   },
   "scripts": {
     "build": "tsup"
